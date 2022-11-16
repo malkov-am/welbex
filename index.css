@@ -1,0 +1,88 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+.page {
+  background-color: #1e1e1e;
+  min-width: 320px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 61px 16px 20px 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  margin-top: -4px;
+}
+
+.logo-description {
+  font-family: "Montserrat", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 300;
+  max-width: 160px;
+  margin: 10px 0 0 0;
+}
+
+.header-nav {
+}
+
+.header-nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-family: "Inter", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.4s linear;
+}
+
+.nav-link:hover {
+  opacity: .8;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 47px;
+}
+
+.phone {
+  font-family: "Inter", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  margin: 0;
+  min-width: 143px;
+}
+
+.sm-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+}
+
+.sm-icon {
+  width: 20px;
+  height: 20px;
+  transition: opacity 0.4s linear;
+}
+
+.sm-icon:hover {
+  opacity: .8;
+}
