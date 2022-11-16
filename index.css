@@ -221,6 +221,11 @@
   width: 262px;
   height: 61px;
   background-color: #4077f3;
+  transition: opacity 0.4s linear;
+}
+
+.gifts-link:hover {
+  opacity: 0.8;
 }
 
 .footer {
