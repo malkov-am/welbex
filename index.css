@@ -20,8 +20,8 @@
 }
 
 .logo-description {
-  font-family: "Montserrat", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Montserrat', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 10px;
   line-height: 10px;
   font-weight: 300;
@@ -42,8 +42,8 @@
 }
 
 .nav-link {
-  font-family: "Inter", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 16px;
   line-height: 19px;
   font-weight: 500;
@@ -52,7 +52,7 @@
 }
 
 .nav-link:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .contacts {
@@ -62,8 +62,8 @@
 }
 
 .phone {
-  font-family: "Inter", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 16px;
   line-height: 19px;
   font-weight: 500;
@@ -77,6 +77,11 @@
   gap: 29px;
 }
 
+.sm-icons_position_footer {
+  justify-content: flex-end;
+  gap: 14px;
+}
+
 .sm-icon {
   width: 20px;
   height: 20px;
@@ -84,7 +89,7 @@
 }
 
 .sm-icon:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .main {
@@ -95,12 +100,11 @@
 }
 
 .main-title-wrapper {
-
 }
 
 .main-title {
-  font-family: "Inter", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 48px;
   line-height: 58px;
   font-weight: 400;
@@ -109,8 +113,8 @@
 }
 
 .main-title_accent {
-  font-family: "Inter", Verdana, sans-serif;
-  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -124,8 +128,8 @@
 }
 
 .main-description {
-  font-family: "Montserrat", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Montserrat', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -141,8 +145,8 @@
 }
 
 .gifts-title {
-  font-family: "Inter", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
@@ -152,7 +156,7 @@
 }
 
 .gifts-title_accent {
-  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -178,8 +182,8 @@
 }
 
 .gift-title {
-  font-family: "Inter", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
@@ -190,8 +194,8 @@
 }
 
 .gift-description {
-  font-family: "Montserrat", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Montserrat', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -203,13 +207,103 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Inter", Verdana, sans-serif;
-  color: #E4E5EA;
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
   font-size: 16px;
   line-height: 19px;
   font-weight: 500;
   text-decoration: none;
   width: 262px;
   height: 61px;
-  background-color: #4077F3;
+  background-color: #4077f3;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 124px 0 20px 0;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-nav-about {
+}
+
+.footer-nav-title {
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #656566;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+
+.footer-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-height: 160px;
+}
+
+.footer-nav-link {
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: opacity 0.4s linear;
+}
+
+.footer-nav-link:hover {
+  opacity: 0.8;
+}
+
+.footer-nav-menu {
+}
+
+.footer-nav-contacts {
+  text-align: end;
+}
+
+.footer-adress {
+  font-family: 'Inter', Verdana, sans-serif;
+  color: #e4e5ea;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.footer-copyright-wrapper {
+  align-self: flex-end;
+  text-align: end;
+}
+
+.footer-copyright {
+  font-family: 'Montserrat', Verdana, sans-serif;
+  color: #e4e5ea;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+
+.footer-policy-link {
+  font-family: 'Montserrat', Verdana, sans-serif;
+  color: #e4e5ea;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  transition: opacity 0.4s linear;
+}
+
+.footer-policy-link:hover {
+  opacity: 0.8;
 }
