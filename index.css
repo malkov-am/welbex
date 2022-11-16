@@ -71,6 +71,10 @@
   min-width: 143px;
 }
 
+.phone_position_footer {
+  margin-bottom: 21px;
+}
+
 .sm-icons {
   display: flex;
   flex-direction: row;
@@ -79,7 +83,8 @@
 
 .sm-icons_position_footer {
   justify-content: flex-end;
-  gap: 14px;
+  gap: 10px;
+  margin-bottom: 14px;
 }
 
 .sm-icon {
@@ -156,7 +161,7 @@
 }
 
 .gifts-title_accent {
-  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%), #e4e5ea;
   background-size: 100%;
   background-clip: text;
   -webkit-background-clip: text;
@@ -228,6 +233,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 33px;
 }
 
 .footer-nav-about {
@@ -247,7 +253,8 @@
 .footer-nav-links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  column-gap: 52px;
+  row-gap: 10px;
   flex-wrap: wrap;
   max-height: 160px;
 }
@@ -271,6 +278,7 @@
 
 .footer-nav-contacts {
   text-align: end;
+  min-width: 540px;
 }
 
 .footer-adress {
@@ -279,6 +287,7 @@
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
+  margin: 0;
 }
 
 .footer-copyright-wrapper {
@@ -292,7 +301,7 @@
   font-size: 12px;
   line-height: 15px;
   font-weight: 400;
-  margin: 0 0 5px 0;
+  margin: 0 0 2px 0;
 }
 
 .footer-policy-link {
