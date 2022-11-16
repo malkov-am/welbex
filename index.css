@@ -23,7 +23,7 @@
   font-family: "Montserrat", Verdana, sans-serif;
   color: #E4E5EA;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 10px;
   font-weight: 300;
   max-width: 160px;
   margin: 10px 0 0 0;
@@ -85,4 +85,131 @@
 
 .sm-icon:hover {
   opacity: .8;
+}
+
+.main {
+  padding: 94px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-title-wrapper {
+
+}
+
+.main-title {
+  font-family: "Inter", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 362px;
+}
+
+.main-title_accent {
+  font-family: "Inter", Verdana, sans-serif;
+  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 900;
+  margin: 0 0 30px 0;
+  max-width: 247px;
+}
+
+.main-description {
+  font-family: "Montserrat", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 275px;
+}
+
+.gifts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 16px;
+}
+
+.gifts-title {
+  font-family: "Inter", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  max-width: 291px;
+  text-align: right;
+  margin: 0;
+}
+
+.gifts-title_accent {
+  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.gifts-grid {
+  display: grid;
+  grid-template-columns: 135px 135px;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 31px;
+  row-gap: 30px;
+  margin: 0;
+  padding: 40px 0 61px 0;
+}
+
+.gifts-grid-item {
+  list-style-type: none;
+}
+
+.gift-title {
+  font-family: "Inter", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: right;
+  margin: 0 0 6px 0;
+}
+
+.gift-description {
+  font-family: "Montserrat", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+}
+
+.gifts-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", Verdana, sans-serif;
+  color: #E4E5EA;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 262px;
+  height: 61px;
+  background-color: #4077F3;
 }
