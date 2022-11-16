@@ -15,8 +15,20 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1023px) {
+  .header {
+    justify-content: center;
+  }
+}
+
 .logo-wrapper {
   margin-top: -4px;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo-wrapper {
+    display: none;
+  }
 }
 
 .logo-description {
@@ -41,6 +53,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1023px) {
+  .header-nav-links li:last-of-type {
+    display: none;
+  }
+}
+
 .nav-link {
   font-family: 'Inter', Verdana, sans-serif;
   color: #e4e5ea;
@@ -59,6 +77,12 @@
   display: flex;
   flex-direction: row;
   gap: 47px;
+}
+
+@media screen and (max-width: 1023px) {
+  .contacts {
+    display: none;
+  }
 }
 
 .phone {
@@ -104,6 +128,15 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1023px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
 .main-title-wrapper {
 }
 
@@ -115,6 +148,13 @@
   font-weight: 400;
   margin: 0;
   max-width: 362px;
+}
+
+@media screen and (max-width: 1023px) {
+  .main-title {
+    font-size: 36px;
+    line-height: 44px;
+  }
 }
 
 .main-title_accent {
@@ -130,6 +170,13 @@
   font-weight: 900;
   margin: 0 0 30px 0;
   max-width: 247px;
+}
+
+@media screen and (max-width: 1023px) {
+  .main-title_accent {
+    font-size: 36px;
+    line-height: 44px;
+  }
 }
 
 .main-description {
@@ -149,6 +196,13 @@
   padding-top: 16px;
 }
 
+@media screen and (max-width: 1023px) {
+  .gifts-wrapper {
+    display: block;
+    width: 100%;
+  }
+}
+
 .gifts-title {
   font-family: 'Inter', Verdana, sans-serif;
   color: #e4e5ea;
@@ -158,6 +212,12 @@
   max-width: 291px;
   text-align: right;
   margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .gifts-title {
+    text-align: left;
+  }
 }
 
 .gifts-title_accent {
@@ -180,6 +240,12 @@
   row-gap: 30px;
   margin: 0;
   padding: 40px 0 61px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .gifts-grid {
+    display: none;
+  }
 }
 
 .gifts-grid-item {
@@ -222,6 +288,12 @@
   height: 61px;
   background-color: #4077f3;
   transition: opacity 0.4s linear;
+}
+
+@media screen and (max-width: 1023px) {
+  .gifts-link {
+    display: none;
+  }
 }
 
 .gifts-link:hover {
