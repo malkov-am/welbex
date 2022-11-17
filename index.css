@@ -1,7 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/fonts.css);
 
-.page {
+.body {
   background-color: #1e1e1e;
   min-width: 320px;
   max-width: 1140px;
@@ -10,9 +10,16 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .page {
+  .body {
     box-sizing: border-box;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    position: relative;
+    overflow: hidden;
   }
 }
 
