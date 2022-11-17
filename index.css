@@ -407,6 +407,7 @@
 }
 
 .main-title_accent {
+  display: block;
   font-family: 'Inter', Verdana, sans-serif;
   background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
   background-clip: text;
