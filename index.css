@@ -344,8 +344,8 @@
 @media screen and (max-width: 1023px) {
   .sm-icons_position_footer {
     justify-content: flex-start;
-    margin-bottom: 9px;
-    gap: 16px;
+    margin-bottom: 5px;
+    gap: 10px;
   }
 }
 
@@ -357,6 +357,13 @@
 
 .sm-icon:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+  .sm-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .main {
