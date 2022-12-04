@@ -1,8 +1,8 @@
 # Welbex
 
-Тестовое задание для amoCRM. Лендинг Welbex.
+Лендинг Welbex.
 
-- [Ссылка на проект](https://malkov-am.github.io/welbex)
+- [Ссылка на проект](https://welbex-a2b40.web.app)
 
 ## Применены следующие технологии:
 
